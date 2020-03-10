@@ -6,7 +6,7 @@ span.navbar-toggler-icon{
 }
 
 header{
-    background-image: url('/assets/img/fond.jpg');
+    background-image: url('../img/fond.jpg');
     width: 100%;
     height: 200px;
     background-repeat: no-repeat;
@@ -80,6 +80,61 @@ h2{
 .tabla__valores{
     margin-top: 10px;
 }
+
+.encuentranos{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.tabla-encuentranos{
+    margin-top: 10px;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    
+}
+
+.encuentranos-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.clase-fondo{
+    background-image: url(/assets/img/1553114216-north-face-6.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:  center top;
+    
+    
+}
+
+.muvpass{
+    width: 200px;
+    height: 200px;
+}
+
+footer{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    height: 50px;
+    
+
+}
+
+.texto-footer{
+    padding-top: 10px;
+    
+}
+
 @media (min-width: 768px){
     header{
         height: 700px;
@@ -106,5 +161,22 @@ h2{
         font-family: 'Raleway', sans-serif;
         font-weight: 600;
         font-size: 80px;
+    }
+
+    .clase-fondo{
+        background-image: url(../img/1553114216-north-face-6.jpg);
+        height: 300px;
+        width: 200px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position:  center top;
+        
+    }
+
+    .encuentranos-box{
+        display: flex;
+        flex-direction: column;
+        padding-left: 200px;
+        padding-top: 20px;
     }
 }
