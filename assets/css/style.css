@@ -61,8 +61,25 @@ h2{
     font-weight: 600;
 }
 
+.tabla__horarios{
+    background-color: white;
+    height: 200px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    width: 250px;
+    
+}
 
+.donde-estamos{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
 
+.tabla__valores{
+    margin-top: 10px;
+}
 @media (min-width: 768px){
     header{
         height: 700px;
@@ -79,5 +96,15 @@ h2{
         display: flex;
         justify-content: center;
         margin-bottom: 10px;
+    }
+
+    .mapa-google{
+        width: 600px;
+    }
+
+    .donde-estamos{
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 80px;
     }
 }
