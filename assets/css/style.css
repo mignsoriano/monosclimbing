@@ -36,10 +36,29 @@ p{
 }
 
 .section{
-    background-color: crimson;
+    background-color: darkred;
     color: white;
-    height: 200px;
+    height: 250px;
     width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding-top: 15px;
+    font-size: 25px;
+
+}
+
+.boton__identificarse{
+    margin-top: 10px;
+    background-color: black;
+    border-color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
 }
 
 
@@ -51,5 +70,14 @@ p{
     p{
         font-family: 'Raleway', sans-serif;
         margin-top: 20px;
+    }
+    .formulario-login{
+        width: 400px;
+    }
+
+    h2{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
     }
 }
